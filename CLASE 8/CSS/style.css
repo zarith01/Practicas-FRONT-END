@@ -7,8 +7,12 @@ body{
     background-color: rgb(248, 6, 180);
     color: white;
 }
+span{
+    font-weight: bold;
+}
 .redes {
     background-color: rgb(248, 126, 213);
     color: white;
+    text-align: center;
 }
 
