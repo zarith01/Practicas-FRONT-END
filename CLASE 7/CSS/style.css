@@ -1,0 +1,19 @@
+body{
+    background: rgba(230, 230, 230, 1);
+    font-family: sans-serif;
+}
+.titulo {
+    background: rgba(196, 196, 196, 1);
+    color: rgba(0, 86, 119, 1);
+}
+header{
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+.footer{
+    background: rgba(0, 86, 119, 1);
+    color: white;
+    text-align: center;
+}
