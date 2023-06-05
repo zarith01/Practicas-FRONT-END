@@ -1,0 +1,38 @@
+
+.encabezado{
+    background-color: black;
+    color:white
+}
+
+.menu{
+    background-color: orange;
+    color:white;
+    display: flex;   
+    justify-content:space-between;
+    padding: 10px 10px;
+}
+
+.banner{
+    background-color: white;
+}
+
+.novedades{
+    background-color: orange;
+}
+
+.suscribete{
+    color:white;
+}
+
+.informacion{
+    background-color: black;
+    color:white;
+    display: flex;   
+    justify-content:space-between;
+    padding: 10px 10px;
+}
+span{
+    color:orange;
+}
+
+
