@@ -5,46 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=divice-width, initial-sale=1.0">
+    
+    <link rel="preconnet" href="https://fonts.googleapis.com">
+    <link rel="preconnet" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
     <title>Práctica 11</title>
     <link rel="stylesheet" href="/CSS/style.css">  
 </head>
  <!--todo el contenido de la página--> 
  <body>
-  <!--lo que está en el encabezado de la pagina-->
-   <header>
-            <!--Barra menu principal-->
-        <section>
-            <img src="/IMG/logo_pizza.png" alt="imagen logo"></img>
-        </section>    
-       <!-- menu principal-->
-        <section>
-            <ul type=none class="menu">
-                <li class="box">Home</li>
-                <li class="box">Ranking</li>
-                <li class="box">Promoción</li>
-                <li class="box">Contacto</li>
-            </ul>
+    <div class="container">
+        <header>
+                <!--Barra menu principal-->
+            <div class="logo">
+                <img src="/IMG/logo_pizza.png" alt="imagen logo"></img>
+            </div>    
+        <!-- menu principal-->
+            <nav class="menu">
+                <ul type=none class="menu">
+                    <li class="box2">Home</li>
+                    <li class="box2">Ranking</li>
+                    <li class="box2">Promoción</li>
+                    <li class="box2">Contacto</li>
+                </ul>
+            </nav>
+        </header>
+    
+
+    <main>
+        <section class="delivery">
+            <div class="foto">
+                <img src="/IMG/delivery.png" alt="delivery"></img>
+            </div>
+            <div class="Promoción">
+                <h2 class="texto-encima">Envio gratis<span> comprando </span>2 pizzas</h2>
+            </div>
         </section>
-   </header>
+        <section class="productos">
+            <div class="titulo">
+                <h2 >podio de pizzas</h2>
+            </div>
+            <div class="top5">
+                <h3 class="subtitulo">Pizzas top 5</h3>
+                <ol class="Ranking">
+                    <li>Muzzarella</li>
+                    <li>Hawaiana</li>
+                    <li>Muzzarella j&Morron</li>
+                    <li>Fugazzeta</li>
+                    <li>Calabresa</li>
+                </ol>
+            </div>
+            <div class="PizzaFalling">
+                <img src="/IMG/PizzaFalling.png" alt="PizzaFalling"></img>
+            </div>
+        </section>
+    </main>
 
-
-
-
-
-   <footer>
-    <section>
-        <img src="/IMG/logo_pizza2.png" alt="imagen logo"></img>
-    </section>    
-   <!-- menu principal-->
-    <section>
-        <ul type=none class="menu2">
-            <li class="box2">Home</li>
-            <li class="box2">Ranking</li>
-            <li class="box2">Promoción</li>
-            <li class="box2">Contacto</li>
-        </ul>
-    </section>    
-   </footer>
+    <footer>
+        <div class="menu-footer">
+            <section class="menu2">
+                <ul type=none >
+                    <li class="box2">Home</li>
+                    <li class="box2">Ranking</li>
+                    <li class="box2">Promoción</li>
+                    <li class="box2">Contacto</li>
+                </ul>
+            </section>
+            <section class="logo2">
+                <img src="/IMG/logo_pizza2.png" alt="imagen logo"></img>
+            </section>            
+        </div>  
+    </div>
+    </footer>
 </body>
 
 
