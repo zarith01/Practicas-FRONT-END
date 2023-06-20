@@ -1,27 +1,77 @@
 
 .encabezado{
     background-color: black;
-    color:white
-}
-
-.menu{
-    background-color: orange;
     color:white;
     display: flex;   
     justify-content:space-between;
     padding: 10px 10px;
 }
+.idioma{
+    display: flex;
+    flex-direction: row;
+}
+
+.rectangle{
+    background-color: orange;    
+    display: flex;   
+    justify-content:space-between;
+    padding: 10px 10px;
+}
+span{
+    color:white;
+}
 
 .banner{
-    background-color: white;
+    background-image: url('/IMG/bowl-and-pet-daities-on-green-background\ 1.png');
+    height: 550px;
+    background-size: cover;
+    display: flex;   
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+    padding: 10px 10px;
+}
+
+button.h3{
+    background-color:white;
+    width: 400px;
+    height: 50px;
+}
+button.p{
+    background-color: orange;
+    color:white;
+    width: 100px;
+    height: 50px;
+    
+
+}
+
+.productos{
+    display: flex; 
+    /*flex-direction: row;
+    justify-content: space-between;*/
+   }
+
+.producto{
+    display: flex;
+    justify-content: center;
 }
 
 .novedades{
     background-color: orange;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .suscribete{
     color:white;
+}
+
+.datos{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .informacion{

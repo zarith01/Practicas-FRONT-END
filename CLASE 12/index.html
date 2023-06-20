@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=divice-width, initial-sale=1.0">
-    <title>PETSHOP Práctica 9</title>
+    <title>PETSHOP Práctica 12</title>
     <link rel="stylesheet" href="/CSS/style.css"> 
 </head>
 <body>
@@ -18,16 +18,16 @@
     <!--Menú regional-->
         <select name="idioma" id="idioma">
             <option value="Español" selected>Español</option>
-        </select>
-        <select name="idioma" id="idioma">
+        <!--</select>
+        <select name="idioma" id="idioma">-->
             <option value="ARG$" selected>ARG$</option>
         </select>
     </section>
     <!--Barra menu principal-->
-    <section class="menu">
-       <img src="/IMG/Logo (1).png" alt="imagen logo" width="250" height="30"></img>
+    <section class="rectangle">
+       <img src="/IMG/Logo (1).png" alt="imagen logo"></img>
        <!-- menu principal-->
-       <article>
+       <article class="menu">
         <span><img src="/IMG/pawprint .png" alt="imagen logo"></img>Categorias</span>
         <span><img src="/IMG/pawprint .png" alt="imagen logo"></img>Pets</span>
         <span><img src="/IMG/pawprint .png" alt="imagen logo"></img>Nosotros</span>
@@ -37,38 +37,34 @@
    </header>
    <!--CONTENIDO PAGINA PRINCIPAL-->
    <main>
-    <section class="banner">
-        <img src="/IMG/bowl-and-pet-daities-on-green-background 1.png" alt="imagen de encabezado" width="1333" height="410" Top="81"></img>
-        </section>   
-        <nav>
-        <button><h3>¡Es un placer tenerte aquí!</h3></button>
-        </nav>
-        <p>¡Comederos en descuento!</p>
-        <nav class="comederos">
-        <button><p>COMEDEROS</p></button>
-        </nav>
-    <section class="Productos">
+    <section class="banner">       
+                <button class="h3"><h3>¡Es un placer tenerte aquí!</h3></button>
+                <p class="p">¡Comederos en descuento!</p>
+                <button class="p"><p>COMEDEROS</p></button>
+    </section>    
+    <section class="slide">
         <center><img src="/IMG/pawprint 1.png" alt="imagen huella2"></img></center>
         <h1 align="center">Productos Destacados</h1>
         <p align="center">comederos  -  Accesorios  -  comida</p> 
-
-            <article>
+    </section>
+    <section class="Productos">   
+            <div class="Producto"> 
                 <img src="/IMG/churrasquito.png" alt="imagen carnes"></img>
                 <h6>Juguete Churrasquillo</h6>
                 <span>$150</span>
-            </article>
+            </div>
 
-            <article>
+            <div class="Producto">
                 <img src="/IMG/comedero.png" alt="imagen comedero"></img>
                 <h6>Comedero para perro</h6>
                 <span>$250</span>
-            </article>
+            </div>
 
-            <article>
+            <div class="Producto">
                 <img src="/IMG/Huesito.png" alt="imagen huesitos"></img>
                 <h6>Juguete Huesito</h6>
                 <span>$650</span>
-            </article>
+            </div>
     </section>
     <section>
             <article>
@@ -89,13 +85,14 @@
      <!--contenido para el pie de página-->
    <footer>
     <section class="novedades">
-        <img src="/IMG/Group.png" alt="imagen mensaje"></img>
-
-        <article class="suscribete">
-            <p>Suscribete para más novedades</p>
+        <article class="suscribete"></article>
+        <img src="/IMG/Group.png" alt="imagen mensaje"></img>        
+        <p class="suscribete">Suscribete para más novedades</p>
         </article>
+        <article class="datos">
         <p>ingrese tu correo electrónico</p>
         <p>suscribirme</p>
+        </article>
     </section>
     <section class="informacion">
         <article>
