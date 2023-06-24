@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Be Vietnam';
+    font-size: 16px;
     margin: 0;
     padding: 0;
+
 }
 .container{
     margin: 16px;
@@ -11,17 +13,32 @@
     justify-content: space-between;
 }
 
-.p1{
-    height: 228px;
-    padding: 10px 10px; 
-    width: 400px;
-    height: 71px;
-    font-size: 16.56px; 
+img.logo{
+    width: 108px;
+    height: 26px;
+}
+
+h1{
+    color:#232C50;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:center;
+    align-self: stretch;
     text-align:right;
+    height: 228px;      
+    font-size: 50px; 
 }
+
+ .p1{
+        color:#000;
+        height: 71px;
+        font-size: 16.56px; 
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-self: stretch;
+        text-align:right;
+    }
 
 .button-purple1{
     background-color: #8B48BF;
@@ -36,237 +53,262 @@
 
 .button-purple2{
     background-color: #8B48BF;
+    padding: 10px 25px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     color: white;
-    width: 70px;
+    width: 69px;
     height: 43px;
-    padding: 10px;
     border-radius: 30px;
-    font-size: 16px;
-}
-.frame4{
-    height: 237px;
     display: flex;
-    justify-content:center;
-}
-.frame5{
-    height: 280px;
-    display: flex;
-    justify-content: space-around;
-}
-.Group1{
-    width: 445px;
-    height: 220px;
-    background: #F3F3F3;
-    display: flex;
-    flex-direction: column;
-    justify-content:center
-}
-.Group2{
-    width: 445px;
-    height: 220px;    
-    background: #F3F3F3;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-}
-.Group3{
-    width: 445px;
-    height: 220px;  
-    background: #F3F3F3;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-}
-.h4{
-    display: flex;
-    justify-content:center;
-}
-
-.frame6{
-    height: 278px;
-    display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
-.frame7{
-    background-color:#8B48BF;
-    padding: 10px 10px; 
-    color:white;
-    height: 224px;
-    display: flex; 
-    justify-content: space-around;
-    align-items: center;
-}
-.frame7-p7{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    color:black;
-    width: 134px;
-    height: 44px;
-    padding: 10px;
-    font-size: 14px;
-}
+
+/*
 
 
-footer{
-    background-color: rgb(4, 4, 4);
-    padding: 10px 10px; 
-    color:white;
-    height: 247px;
-    display: flex;  
-    justify-content: space-between;
-    align-items: center; 
-    }
 
-.menu-footer li {
-    display: flex;
-    margin-right: 10px;
-    }    
-
-.logo2{
-    display: flex;   
-    justify-content:flex-end;
-    width: 240px;
-    height: 110px;
-    padding: 10px;   
-}
-.menu2{
-    display: flex;
-    flex-direction: column;    
-    padding:0;
-    justify-content:flex-start;
-    
-}
-
-.button-purple7{
-    width: 63px;
-    height: 42px;
-    background: #8B48BF;
-    border-radius: 50px;
-}
+*/
 
 @media (max-width: 480px) {
-    .frame2 , .frame7 {
+    .frame2 , .frame5 {
       background:#3CDDF3;
     }
-    ul.menu ,.button-purple ,.Group1, .Group3{
+    ul.menu ,.button-purple ,.Group1, .Group3, .frame2-p3, .Group1,.Group3,.imgGroup1,.imgGroup3,.rectangle1,.rectangle3,.Group1-h4,.Group3-h4,.Group1-p, .Group3-p{
         display: none; /* Anula la regla original */
       }
       header{
         color:black;
-        height: 60px;  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        height: 60px; 
        
     }
-    .logo{
-        padding: 10px 10px; 
-        width: 107.68px;
-        height: 25px;
-    }
+    
       .frame1{
         padding: 10px 10px; 
         height: 841px;
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
-       
+        justify-content:space-between;
+        align-items: flex-start;       
     }
+    .foto{ 
+        width: 400px;
+        height: 342px;
+    }
+
+
     .Frase-home{
         padding: 10px 10px; 
         width: 400px;
-        height: 228px;
+        height: 399px;
         display: flex;
         flex-direction: column;
         justify-content:space-around;
-        text-align:right;
+        align-items:flex-end;
     }
-    h1{
-        height: 228px;
-        font-size: 50px; 
-    }
-    .foto , img {
-        padding: 10px 10px; 
-        height: 342px;
-    }
-    .logo{
-        padding: 10px 10px; 
-        width: 107.68px;
-        height: 25px;
-    }
+      
+    
     .frame2{    
-        padding: 10px 10px; 
+        padding: 40px 20px; 
         height: 306px;
         color:white;
         display: flex; 
         flex-direction: column;
         justify-content: space-around;
-        align-items:start;
+        align-items:center;
     }
     
-    h2{
-        padding: 10px 10px; 
+    h2{ 
         height: 88px;
         font-size: 36px;
+        display: flex; 
         text-align: left; 
+        flex-direction: column;
+        justify-content: center; 
     }
-    .frame2-p3{    
-        padding: 10px 10px; 
+    .frame2-p2{     
         height: 88px;
-        text-align: left;
+        display: flex;
+        text-align: left; 
+        flex-direction: column;
+        justify-content: center;
+        align-self: stretch;
+
     }
     .frame3{
-        height: 428px;
+        padding-left: 34px;    /* Relleno en el lado izquierdo */
+        padding-top: 65px;     /* Relleno en la parte superior */
+        padding-bottom: 58px;  /* Relleno en la parte inferior */
+        height: 734px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;   
+        justify-content: center;   
+    }
+    .frame3a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .frame31,.frame32,.frame33{
+        display: flex;
+        height: 214px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
     }
     .title31, .title32, .title33{
         background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+        width: 385px;
+        height: 43px;
         display: flex;
         align-items: center; 
     }
-    .frame7{
-        padding: 10px 10px; 
-        color:white;
-        height: 224px;
+    .frame3-h4{
+        color:#323851 ;
+        width: 266px;
+        height: 43px;
+        display: flex;
+        padding: 10px;
+        align-items: flex-start;
+    }
+    .p5{
+        color:#B3B2B7 ;
+        width: 385px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .frame4{
+        height: 751px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center; 
+    }
+    .texto-month{
+        width: 424px;
+        height: 61px;
+        display: flex;
+        text-align:center;
+    }
+    .Group{
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .Group2{
+        width: 403px;
+        height: 240px;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+    }
+    .imgGroup2{
+        position: absolute;
+        top:2180px;
+        width: 87.014px;
+        height: 71.944px;
+    }
+    .rectangle2{
+        background: #F3F3F3;
+        width: 403px;
+        height: 219px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+    }
+    .Group2-h4{
+        display: flex;
+        text-align:center;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .Group2-p{
+        color: #B9B9C1;
+        display: flex;
+        width: 403px;
+        height: 100px;
+        text-align:center;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: 500;
+        line-height: 156.6%;
+    }
+    .button-purple{
+        background-color: #8B48BF;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        color: white;
+        width: 134px;
+        height: 44px;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frame5{
+        padding: 40px 50px; 
+        height: 366px;
         display: flex; 
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
     .text-news{
+        width: 324px;
+        height: 192px;
+        color: #FFF;
+        font-size: 40px;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-    .frame7-p7{
-        width: 201px;
-        height: 44px;
+   
+    .frame5-p5{
         background:#232C50;
-        color:white;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
         border-radius: 50px;
+        color:#FFFFFF;
+        display: flex;
+        width: 134px;
+        height: 44px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
     }
 }
 
   @media not (max-width: 480px) {
-    .frame2 , .frame7 {
+    .frame2 , .frame5 {
      background-color: #8B48BF;
     }
+    a, div.hamburger, .frame2-p2{
+    display: none; /* Anula la regla original */
+    }
+
     header{
-        color:black;
+        color:#232C50;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;  
         padding: 65px, 165px, 65px, 165px;
         height: 174px;
      }
     
-    .logo{
-        padding: 10px 10px; 
-        width: 107.68px;
-        height: 25px;
-    }
-
      ul.menu{
         padding: 16px;
         width: 397px;
@@ -285,84 +327,243 @@ footer{
         padding: 10px;
         border-radius: 50px;
         font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .frame1{
         padding: 10px 10px; 
-        height: 643px;
+        height: 634px;
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
-    .foto{
-        padding: 10px 10px; 
+    .foto{ 
         width: 540px;
         height: 462px;
     }
     .Frase-home{
-        padding: 10px 10px; 
-        width: 400px;
-        height: 450px;
+        padding: 10px 10px;         
+        width: 450px;
+        height: 399px;
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
-        text-align:right;
-    }
-    h1{
-        height: 228px;      
-        font-size: 40px; 
-    }
+        justify-content: space-around;
+        align-items: flex-end;        
+    }  
+
+   
     .frame2{
     
-        padding: 10px 10px; 
+        padding: 40px 10px; 
         height: 168px;
         color:white;
         display: flex; 
-        justify-content: space-around;
+        justify-content:space-evenly;
         align-items: center;
     }
     
     h2{
-        padding: 10px 10px; 
         width: 450px;
         height: 88px;
         font-size: 36px;
+        display: flex; 
         text-align: left; 
+        flex-direction: column;
+        justify-content: center;
     }
-    .frame2-p3{    
-        padding: 10px 10px; 
+    .frame2-p3{     
         width: 450px;
         height: 88px;
-        text-align: left;
+        display: flex;
+        text-align: left; 
+        flex-direction: column;
+        justify-content: center;
+        font-weight: 500;
+        line-height: 151.1%;
+
     }
     .frame3{
-        background-color:#FAFAFA;
+        background-color:#FAFAFA;        
+        padding: 40px 0px;
         height: 428px;
         display: flex;
-        justify-content: space-around;   
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    .frame3a{
+        display: flex;
+        width: 1133px;
+        height: 162px;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+    .frame3b{
+        height: 162px;
+        display: flex;
+        align-items: flex-start;
     }
     .frame31, .frame32, .frame33{
+        width: 437px;
+        height: 162px;
         display: flex;
         flex-direction: column;
-        align-items:space-around;   
-        ; 
+        justify-content:space-around;
+       
     }
     .title31, .title32, .title33{        
         display: flex;
         align-items: center; 
     }
-    .frame7{
+    .frame3-h4{
+        padding-left: 10px;    /* Relleno en el lado izquierdo */
+    }
+    .p5{
+        display: flex;
+        color:#B3B2B7;
+        text-align:start;
+        padding-left: 79px;    /* Relleno en el lado izquierdo */
+        width: 437px;
+        height: 104px;
+        line-height: 156.6%;
+        letter-spacing: -0.163px;
+    }
+
+    .frame4{
+        height: 755px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center; 
+    }
+    .texto-month{
+        width: 424px;
+        height: 61px;
+        display: flex;
+        text-align:center;
+    }
+    .Group{
+        width: 1209px;
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .Group1,.Group2,.Group3{
+        width: 403px;
+        height: 240px;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+    }
+    .imgGroup1,.imgGroup2,.imgGroup3{
+        position: absolute;
+        top:1643.61px;
+        width: 87.014px;
+        height: 71.944px;
+    }
+    .rectangle1,.rectangle2,.rectangle3 {
+        background: #F3F3F3;
+        width: 403px;
+        height: 219px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+    }
+    .Group1-h4,.Group2-h4,.Group3-h4{
+        display: flex;
+        text-align:center;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .Group1-p,.Group2-p,.Group3-p{
+        color: #B9B9C1;
+        display: flex;
+        width: 403px;
+        height: 100px;
+        text-align:center;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: 500;
+        line-height: 156.6%;
+    }
+    
+    .frame5{
         padding: 10px 10px; 
-        color:white;
         height: 224px;
         display: flex; 
         justify-content: space-around;
         align-items: center;
     }
-    button.p7{
-        width: 201px;
-        height: 44px;
+    .text-news{
+        width: 393px;
+        height: 96px;
+        color: #FFF;
+        font-size: 40px;
+    }
+   
+    .frame5-p5{
         background: #FFFFFF;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        color:#8B48BF;
+        width: 134px;
+        height: 44px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    footer{
+        background-color: rgb(4, 4, 4);
+        padding: 10px; 
+        color:white;
+        height: 247px;
+        display: flex;  
+        justify-content: space-between;
+        align-items: center; 
+        }
+    
+    .Group-F {
+        width: 140px;
+        height: 142px;
+        margin-right: 10px;
+        display: flex;  
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; 
+        }    
+    
+    
+    .menus{
+        display: flex;
+        width: 393px;
+        height: 142px;
+        display: flex;  
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        gap: 219px;
+        flex-shrink: 0;        
+    }
+
+    .formulario{
+        width: 417px;
+        height: 142px;
+        display: flex;  
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .button-purple7{
+        width: 63px;
+        height: 42px;
+        background: #8B48BF;
         border-radius: 50px;
     }
+
 }  
 
 
