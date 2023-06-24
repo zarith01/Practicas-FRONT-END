@@ -64,11 +64,6 @@ h1{
     align-items: center;
 }
 
-/*
-
-
-
-*/
 
 @media (max-width: 480px) {
     .frame2 , .frame5 {
@@ -355,7 +350,7 @@ h1{
     }
 }
 
-  @media not (max-width: 480px) {
+@media not (max-width: 480px) {
     .frame2 , .frame5 {
      background-color: #8B48BF;
     }
@@ -379,7 +374,8 @@ h1{
         height: 23px;
         display: flex;
         justify-content: space-around;
-        align-items: center;     
+        align-items: center;
+        cursor: pointer;
     }
     
     .button-purple{
@@ -394,6 +390,7 @@ h1{
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     .frame1{
         padding: 10px 10px; 
@@ -586,55 +583,79 @@ h1{
         height: 247px;
         display: flex;  
         justify-content: space-between;
-        align-items: center; 
+        align-items: center;
+        position: relative;
         }
-    
+
     .Group-F {
-        width: 140px;
-        height: 142px;
-        margin-right: 10px;
-        display: flex;  
+        display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center; 
-        }    
-    
-    
+        align-items: flex-start;
+        align-items: center;
+        }
+
+    .logo {
+        margin-left: 50px; /* Establece el margen izquierdo deseado */
+    }
+
+    .iconos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        cursor: pointer;
+        gap: 10px;
+        padding-top: 30px;
+        margin-left: 50px;
+      }
+
+
+
     .menus{
         display: flex;
-        width: 393px;
-        height: 142px;
-        display: flex;  
         flex-direction: row;
         justify-content: space-between;
-        align-items: center; 
-        gap: 219px;
-        flex-shrink: 0;        
+        align-items: center;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+
+    .menus nav + nav {
+        margin-left: 180px;
+    }
+
+    ul li {
+        margin-bottom: 10px;
     }
 
     .formulario{
-        width: 417px;
-        height: 142px;
-        display: flex;  
-        flex-direction: column;
-        justify-content: space-between;
+        display: flex;
         align-items: center;
+        margin-right: 50px;
     }
-    
+
+    .formulario input[type="text"] {
+        height: 40px;
+        border-radius: 20px;
+        flex: 1;
+      }
+
+      .formulario button {
+        margin-left: 10px;
+      }
     .button-purple7{
         width: 63px;
         height: 42px;
         background: #8B48BF;
         border-radius: 50px;
+        cursor: pointer;
     }
 
-}  
+    .pf {
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        font-size: smaller;
+        opacity: 0.7;
+      }
 
-
-
-
-
-
-
-
-
+}
