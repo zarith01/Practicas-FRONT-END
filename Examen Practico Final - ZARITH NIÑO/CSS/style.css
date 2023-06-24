@@ -29,7 +29,7 @@ h1{
     font-size: 50px; 
 }
 
- .p1{
+.p1{
         color:#000;
         height: 71px;
         font-size: 16.56px; 
@@ -63,26 +63,40 @@ h1{
     justify-content: center;
     align-items: center;
 }
-
-
+.button-purple4{
+    background-color: #8B48BF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hamburger,.button-purple1,.button-purple2,.button-purple4,.frame5-p5,.button-purple7{
+    cursor: pointer;
+}
 @media (max-width: 480px) {
     .frame2 , .frame5 {
-      background:#3CDDF3;
+    background:#3CDDF3;
     }
     ul.menu ,.button-purple ,.Group1, .Group3, .frame2-p3, .Group1,.Group3,.imgGroup1,.imgGroup3,.rectangle1,.rectangle3,.Group1-h4,.Group3-h4,.Group1-p, .Group3-p{
         display: none; /* Anula la regla original */
-      }
-      header{
+    }
+    
+    header{
         color:black;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center; 
-        height: 60px; 
-       
+        height: 60px;        
     }
-    
-      .frame1{
+        
+    .frame1{
         padding: 10px 10px; 
         height: 841px;
         display: flex;
@@ -105,7 +119,7 @@ h1{
         justify-content:space-around;
         align-items:flex-end;
     }
-      
+    
     
     .frame2{    
         padding: 40px 20px; 
@@ -239,19 +253,6 @@ h1{
         font-weight: 500;
         line-height: 156.6%;
     }
-    .button-purple4{
-        background-color: #8B48BF;
-        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
-        color: white;
-        width: 134px;
-        height: 44px;
-        padding: 10px;
-        border-radius: 50px;
-        font-size: 16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     .frame5{
         padding: 40px 50px; 
@@ -271,7 +272,7 @@ h1{
         flex-direction: column;
         justify-content: center;
     }
-   
+    
     .frame5-p5{
         background:#232C50;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -307,7 +308,6 @@ h1{
     
     
     .menus{
-        display: flex;
         width: 350px;
         height: 141px;
         display: flex;  
@@ -319,14 +319,14 @@ h1{
         height: 141px;
         display: flex;  
         flex-direction: column;
-        justify-content:space-evenly;
+        justify-content:center;
     }
     .menu3{
         width: 105px;
         height: 141px;
         display: flex;  
         flex-direction: column;
-        justify-content:space-evenly;
+        justify-content:center;
     }
 
     .formulario{
@@ -334,8 +334,19 @@ h1{
         height: 142px;
         display: flex;  
         flex-direction: column;
-        justify-content: center;       
+        justify-content: center; 
+        margin-left:160px; 
     }
+    .formulario input[type="text"] {
+        height: 40px;
+        border-radius: 20px;
+        flex: 1;
+    }
+    .formulario input:hover {
+        /* Estilos cuando se hace hover en el header */
+        background-color: rgb(248, 179, 248);
+        color: black;
+      }
     .pf{
         position: absolute;
         top:3540px;
@@ -352,7 +363,7 @@ h1{
 
 @media not (max-width: 480px) {
     .frame2 , .frame5 {
-     background-color: #8B48BF;
+    background-color: #8B48BF;
     }
     a, div.hamburger, .frame2-p2{
     display: none; /* Anula la regla original */
@@ -366,9 +377,9 @@ h1{
         align-items: center;  
         padding: 65px, 165px, 65px, 165px;
         height: 174px;
-     }
+    }
     
-     ul.menu{
+    ul.menu{
         padding: 16px;
         width: 397px;
         height: 23px;
@@ -413,7 +424,6 @@ h1{
         align-items: flex-end;        
     }  
 
-   
     .frame2{
     
         padding: 40px 10px; 
@@ -470,8 +480,7 @@ h1{
         height: 162px;
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
-       
+        justify-content:space-around;       
     }
     .title31, .title32, .title33{        
         display: flex;
@@ -551,6 +560,7 @@ h1{
         font-weight: 500;
         line-height: 156.6%;
     }
+
     
     .frame5{
         padding: 10px 10px; 
@@ -565,7 +575,7 @@ h1{
         color: #FFF;
         font-size: 40px;
     }
-   
+    
     .frame5-p5{
         background: #FFFFFF;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -606,7 +616,7 @@ h1{
         gap: 10px;
         padding-top: 30px;
         margin-left: 50px;
-      }
+    }
 
 
 
@@ -637,11 +647,16 @@ h1{
         height: 40px;
         border-radius: 20px;
         flex: 1;
+    }
+    .formulario input:hover {
+        /* Estilos cuando se hace hover en el header */
+        background-color: rgb(248, 179, 248);
+        color: black;
       }
 
-      .formulario button {
+    .formulario button {
         margin-left: 10px;
-      }
+    }
     .button-purple7{
         width: 63px;
         height: 42px;
@@ -656,6 +671,6 @@ h1{
         right: 50px;
         font-size: smaller;
         opacity: 0.7;
-      }
+    }
 
 }
